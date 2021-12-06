@@ -1,0 +1,82 @@
+/**
+
+  Use animations here. Useful resources on http://docs.codacloud.net
+
+**/
+
+.head {
+  /* TODO */
+  animation-name: float;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: 100% 0;
+  
+}
+
+.body {
+  /* TODO */
+  animation-name: float;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: 100% 0;
+  
+}
+
+.left.hand {
+  /* TODO */
+   animation-name: lefthandHi;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: 100% 0;
+}
+
+.right.hand {
+  /* TODO */
+  animation-name: righthandHi;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: 100% 0;
+}
+
+.left.foot {
+  /* TODO */
+  animation-name: float;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: 100% 0;
+  
+}
+
+.right.foot {
+  /* TODO */
+  animation-name: float;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: 100% 0;
+  
+}
+
+@keyframes righthandHi {
+  from {
+    transform: rotate(0);
+  }
+
+  50% {
+    transform: rotate(-160deg);
+  }
+}
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
